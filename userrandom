@@ -1,0 +1,21 @@
+package random;
+import java.lang.*;
+import java.util.*;
+public class generation {
+
+	public static void main(String[] args) {
+		int num;
+		int min;
+		int max;
+		Scanner sc=new Scanner(System.in);
+		num=sc.nextInt();
+		max=sc.nextInt();
+		min=sc.nextInt();
+		for(int i=1;i<=num;i++){
+			System.out.println(Math.random()*(max-min+1)+min);
+		}
+		
+
+	}
+
+}
